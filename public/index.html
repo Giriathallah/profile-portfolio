@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Giri Athallah's Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <section id="home">
+      <header>
+        <div class="lg:flex lg:justify-between lg:items-center lg:px-10">
+          <!-- logo -->
+          <div class="flex mt-5 items-center justify-center flex-col">
+            <i
+              class="text-2xl bi bi-asterisk bg-gradient-to-tr from-violet-800 via-sky-700 to-teal-600 text-transparent bg-clip-text"
+            ></i>
+            <a
+              href="#"
+              class="text-2xl font-bold bg-gradient-to-tr from-violet-800 via-sky-700 to-teal-600 text-transparent bg-clip-text"
+            >
+              Giri Athallah
+            </a>
+          </div>
+          <!--  end of logo -->
+          <nav class="mt-8">
+            <ul class="flex-row w-full items-center justify-center flex">
+              <li
+                class="text-base border-l-2 border-r-2 border-black px-8 py-1 hover:bg-sky-600 hover:text-white font-semibold"
+              >
+                <a href="#">Home</a>
+              </li>
+              <li
+                class="text-base border-r-2 border-black px-8 py-1 hover:bg-sky-600 hover:text-white font-semibold group"
+              >
+                <a href="#project" class="">Project</a>
+              </li>
+              <!-- <li
+                class="text-base border-r-2 border-black px-8 py-1 hover:bg-sky-600 hover:text-white font-semibold"
+              >
+                <a href="#contact">Contact</a>
+              </li> -->
+            </ul>
+          </nav>
+        </div>
+      </header>
+    </section>
+
+    <!-- header -->
+
+    <!-- hero -->
+    <section id="hero">
+      <div class="flex-row lg:flex lg:mt-36">
+        <!-- front end -->
+        <div
+          class="flex lg:w-1/3 mt-10 justify-center items-center mx-10 border-b-2 border-teal-600 py-5 lg:border-0 lg:mt-0 lg:py-0 lg:mx-0 lg:items-start lg:pl-24"
+        >
+          <h1 class="">
+            <span
+              class="font-bold text-4xl mr-2 lg:mr-0 lg:text-6xl bg-gradient-to-tr from-blue-800 via-sky-600 to-green-500 text-transparent bg-clip-text"
+              >Backend</span
+            >
+            <span class="font-semibold text-2xl mr-2 lg:mr-0 lg:text-4xl"
+              >web</span
+            >
+            <span
+              class="font-bold text-4xl lg:mr-0 lg:text-6xl lg:border-b-2 bg-gradient-to-tr from-blue-800 via-sky-600 to-green-500 text-transparent bg-clip-text border-sky-600 pb-4 border-dashed"
+              >Developer</span
+            >
+          </h1>
+        </div>
+        <!-- front end -->
+
+        <!-- foto dan kontak -->
+        <div
+          class="flex items-center mt-10 lg:mt-0 w-full lg:flex lg:flex-col lg:w-1/3 lg:h-96"
+        >
+          <!-- buat foto -->
+          <div class="flex w-1/2 justify-center lg:h-1/2">
+            <img
+              class="max-h-64 max-w-64 h-auto w-auto rounded-full aspect-square"
+              src="/dist/assets/img/giri.png"
+              alt="Muhammad Giri Sulthan Athallah lagi photo"
+            />
+          </div>
+          <!-- buat foto -->
+
+          <!-- buat kontak -->
+          <div
+            id="kontak"
+            class="px-10 w-1/2 flex flex-col justify-center lg:h-1/2"
+          >
+            <div
+              class="flex items-center border-b-2 border-black border-dashed hover:border-solid mb-2"
+            >
+              <i
+                class="fab fa-instagram mr-2 bg-gradient-to-tr text-transparent bg-clip-text from-yellow-500 via-red-600 to-violet-700 lg:text-2xl"
+              ></i>
+              <h2
+                class="text-lg font-bold bg-gradient-to-bl from-violet-700 via-pink-500 to-yellow-300 text-transparent bg-clip-text lg:text-2xl"
+              >
+                <a href="">Instagram</a>
+              </h2>
+            </div>
+            <div
+              class="flex items-center border-b-2 border-black border-dashed hover:border-solid mb-2"
+            >
+              <i
+                class="fab fa-linkedin bg-blue-800 text-transparent bg-clip-text mr-2 lg:text-2xl"
+              ></i>
+              <h2 class="text-lg font-bold text-blue-800 lg:text-2xl">
+                <a
+                  href="https://www.linkedin.com/in/muhammad-giri-sulthan-athallah-725421220/"
+                  >Linkedin</a
+                >
+              </h2>
+            </div>
+            <div
+              class="flex items-center border-b-2 border-black border-dashed hover:border-solid mb-2"
+            >
+              <i
+                class="fas fa-envelope mr-2 bg-red-700 bg-clip-text text-transparent lg:text-2xl"
+              ></i>
+              <h2 class="text-lg font-bold text-red-700 lg:text-2xl">
+                <a href="">Email</a>
+              </h2>
+            </div>
+          </div>
+        </div>
+        <!-- buat kontak -->
+
+        <!-- end foto dan kontak -->
+
+        <!-- keterangan hero -->
+        <div
+          class="flex lg:w-1/3 mt-10 lg:mt-0 lg:items-end lg:py-0 lg:px-0 text-center border-t-2 border-b-2 border-black border-dashed py-4 px-6 lg:border-0 lg:pr-24"
+        >
+          <p
+            class="lg:text-lg lg:border-t-2 lg:pt-4 lg:border-sky-600 lg:border-dashed"
+          >
+            I'm a college student with a strong passion for web development and
+            networking. I've explored both front-end and back-end technologies,
+            crafting user-friendly interfaces and functional web applications.
+            Combining my networking background with my web development skills, I
+            aim to create impactful digital experiences that blend innovation
+            and functionality
+          </p>
+        </div>
+        <!-- keterangan hero -->
+      </div>
+    </section>
+
+    <!-- end of hero -->
+
+    <!-- Project -->
+    <section id="project" class="mb-32">
+      <div class="mt-32">
+        <h1 class="text-center">My Project</h1>
+      </div>
+      <div
+        class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 w-3/4 mx-auto mt-28"
+      >
+        <div
+          class="h-[550px] min-h-[550px] border border-black box-border flex flex-col relative rounded-xl overflow-hidden"
+        >
+          <div class="h-1/2 w-full">
+            <img
+              class="w-full h-full bg-cover hover:scale-105"
+              src="/dist/assets/img/project1.png"
+              alt="Timeline dr Norman Borlaug"
+              srcset=""
+            />
+          </div>
+          <div class="h-1/2 mt-5 px-6">
+            <h1>Timeline</h1>
+            <p class="mt-5 text-justify">
+              Timeline of Dr. Norman Borlaug for certification test in
+              freecodecamp responsive website
+            </p>
+            <div class="flex justify-end absolute bottom-0 right-0 mb-5">
+              <a
+                href="https://giriathallah.github.io/biography.github.io/"
+                class="mx-5 bg-blue-700 px-8 py-2 rounded-full hover:bg-blue-500 ease-in-out duration-300 hover:scale-105 text-white"
+                target="_blank"
+                >Visit</a
+              >
+            </div>
+          </div>
+        </div>
+        <div
+          class="h-[550px] min-h-[550px] border shadow-xl border-black box-border flex flex-col relative rounded-xl overflow-hidden"
+        >
+          <div class="h-1/2 w-full">
+            <img
+              class="w-full h-full bg-cover hover:scale-105"
+              src="/dist/assets/img/project2.png"
+              alt="Javascript Documentation"
+              srcset=""
+            />
+          </div>
+          <div class="h-1/2 mt-5 px-6">
+            <h1>Javascript Documentation</h1>
+            <p class="mt-5 text-justify">
+              Javascript Documentation for freecodecamp responsive website
+              certification test
+            </p>
+            <div class="flex justify-end absolute bottom-0 right-0 mb-5">
+              <a
+                href="https://giriathallah.github.io/Javascript.github.io/"
+                class="mx-5 bg-blue-700 px-8 py-2 rounded-full hover:bg-blue-500 ease-in-out duration-300 hover:scale-105 text-white"
+                target="_blank"
+                >Visit</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="h-[550px] min-h-[550px] border border-black box-border flex flex-col relative rounded-xl overflow-hidden"
+        >
+          <div class="h-1/2 w-full">
+            <img
+              class="w-full h-full bg-cover hover:scale-105"
+              src="/dist/assets/img/project3.png"
+              alt="Original Trombones"
+              srcset=""
+            />
+          </div>
+          <div class="h-1/2 mt-5 px-6">
+            <h1>Original Trombones</h1>
+            <p class="mt-5 text-justify">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
+              consectetur aut officia nam maiores facilis similique, quam
+              necessitatibus sunt quidem!
+            </p>
+            <div class="flex justify-end absolute bottom-0 right-0 mb-5">
+              <a
+                href="#"
+                class="mx-5 bg-blue-700 px-8 py-2 rounded-full hover:bg-blue-500 ease-in-out duration-300 hover:scale-105 text-white"
+                >Visit</a
+              >
+            </div>
+          </div>
+        </div>
+        <div
+          class="h-[550px] min-h-[550px] border border-black box-border flex flex-col relative rounded-xl overflow-hidden"
+        >
+        <div class="h-1/2 w-full">
+          <img
+            class="w-full h-full bg-cover hover:scale-105"
+            src="/dist/assets/img/coming-soon.jpg"
+            alt="Original Trombones"
+            srcset=""
+          />
+          <div class="h-1/2 mt-5 px-6">
+            <h1>Calculator</h1>
+            <p class="mt-5 text-justify">
+              Calculator using HTML, CSS, Javascript
+            </p>
+            <div class="flex justify-end absolute bottom-0 right-0 mb-5">
+              <a
+                class="mx-5 bg-blue-700 px-8 py-2 rounded-full hover:bg-blue-500 ease-in-out duration-300 hover:scale-105 text-white"
+                aria-disabled="true"
+                >Visit</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of project -->
+    <!-- contact -->
+
+    <!-- Skills Section -->
+
+    <section id="contact"></section>
+    <!-- contact -->
+  </body>
+</html>
